@@ -1,1 +1,6 @@
-# Practica Formativa\n\nApellido1, Apellido2
+# PFO1_DevOps_Maidana-Martin_Marin-Mariano
+Práctica Formativa Obligatoria Nº 1.
+
+Integrantes del grupo:
++ Maidana, Martin Nicolás
++ Marin, Mariano Daniel
