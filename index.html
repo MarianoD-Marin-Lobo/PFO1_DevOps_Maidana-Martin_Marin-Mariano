@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <!-- Metadatos -->
@@ -27,24 +28,30 @@
         </section>
 
         <section>
-            <form class="col-md-6">
+            <form class="col-md-6" method="POST" action="procesar.php">
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Dirección de Email</label>
-                  <input type="email" class="form-control" id="email" name="correoElectronico" required>
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="email"  placeholder="Escribí tu email" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label" required>Contraseña</label>
-                  <input type="password" class="form-control" name="contraseña" required>
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Escribí tu contraseña de al menos 6 digitos" name="password">
+
                 </div>
-    
-                <button type="button" class="btn btn-primary" onclick="enviarDatos()">LogIn</button>
+            
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-        </section>
-    
+            
+        </section>      
+
+        
+        
+        
+
+
 
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        <script src="../feature/scripts.js"></script>
     </body>
 </html>
